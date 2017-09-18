@@ -1,0 +1,21 @@
+En este directorio se encuentra el código verilog para sintetizar
+y probar un registro desplazante de N bits. Para poder verificar
+su funcionamiento, basta con utilizar el Makefile proporcionado.
+
+Las opciones disponibles son las siguientes:
+
+make		compila y genera un ejecutable usando los .v en 
+		el archivo de texto files.txt
+
+make run	ejecuta el binario generado por make, así como
+		el .vcd para su posterior visualización con
+		gtkwave
+
+make wave	abre el .vcd para su visualización.
+
+make yosys	sintetiza el .v usando la receta provista por
+		el archivo yoscript.txt
+
+make clean	limpia el directorio de ejecutables y otros
+		residuos.
+

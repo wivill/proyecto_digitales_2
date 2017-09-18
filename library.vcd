@@ -1,0 +1,378 @@
+$date
+	Sun Sep 10 12:51:49 2017
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module test_bench $end
+$var wire 1 ! Mux $end
+$var wire 1 " Nand $end
+$var wire 1 # Nor $end
+$var wire 1 $ Not $end
+$var wire 1 % Qn $end
+$var wire 1 & Qp $end
+$var wire 1 ' oA $end
+$var wire 1 ( oB $end
+$var wire 1 ) oClk $end
+$var wire 1 * oClr $end
+$var wire 1 + oD $end
+$var wire 1 , oEnb $end
+$var wire 1 - oPre $end
+$var wire 1 . oSel $end
+$scope module tester00 $end
+$var reg 1 / oA $end
+$var reg 1 0 oB $end
+$var reg 1 1 oClk $end
+$var reg 1 2 oClr $end
+$var reg 1 3 oD $end
+$var reg 1 4 oEnb $end
+$var reg 1 5 oPre $end
+$var reg 1 6 oSel $end
+$upscope $end
+$scope module nand00 $end
+$var wire 1 ' iA $end
+$var wire 1 ( iB $end
+$var wire 1 " oNand $end
+$upscope $end
+$scope module nor00 $end
+$var wire 1 ' iA $end
+$var wire 1 ( iB $end
+$var wire 1 # oNor $end
+$upscope $end
+$scope module not00 $end
+$var wire 1 ' iA $end
+$var wire 1 $ oNot $end
+$upscope $end
+$scope module mux00 $end
+$var wire 1 ' iA $end
+$var wire 1 ( iB $end
+$var wire 1 , iEnb $end
+$var wire 1 . iSel $end
+$var reg 1 7 oMux $end
+$upscope $end
+$scope module ffd00 $end
+$var wire 1 ) iClk $end
+$var wire 1 * iClr $end
+$var wire 1 + iD $end
+$var wire 1 - iPre $end
+$var reg 1 8 oQn $end
+$var reg 1 9 oQp $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x9
+x8
+x7
+06
+05
+14
+x3
+02
+01
+x0
+x/
+0.
+0-
+1,
+x+
+0*
+0)
+x(
+x'
+x&
+x%
+x$
+x#
+x"
+x!
+$end
+#27000
+07
+0!
+#35000
+11
+1)
+#65000
+09
+0&
+#70000
+01
+0)
+#95000
+18
+1%
+#105000
+11
+1)
+#140000
+00
+0(
+0/
+0'
+13
+1+
+16
+1.
+15
+1-
+12
+1*
+04
+0,
+01
+0)
+#170000
+1"
+1#
+1$
+#175000
+11
+1)
+#205000
+19
+1&
+#210000
+01
+0)
+#235000
+08
+0%
+#245000
+11
+1)
+#280000
+01
+0)
+#315000
+10
+1(
+03
+0+
+06
+0.
+11
+1)
+#345000
+09
+0&
+0#
+#350000
+01
+0)
+#375000
+18
+1%
+#385000
+11
+1)
+#420000
+01
+0)
+#455000
+11
+1)
+#490000
+01
+0)
+#525000
+00
+0(
+1/
+1'
+13
+1+
+11
+1)
+#552000
+17
+1!
+#555000
+19
+1&
+0$
+#560000
+01
+0)
+#585000
+08
+0%
+#595000
+11
+1)
+#630000
+01
+0)
+#665000
+11
+1)
+#700000
+01
+0)
+#735000
+10
+1(
+03
+0+
+16
+1.
+11
+1)
+#765000
+09
+0&
+0"
+#770000
+01
+0)
+#795000
+18
+1%
+#805000
+11
+1)
+#840000
+01
+0)
+#875000
+11
+1)
+#910000
+01
+0)
+#945000
+00
+0(
+0/
+0'
+13
+1+
+06
+0.
+11
+1)
+#972000
+07
+0!
+#975000
+19
+1&
+1"
+1#
+1$
+#980000
+01
+0)
+#1005000
+08
+0%
+#1015000
+11
+1)
+#1050000
+01
+0)
+#1085000
+11
+1)
+#1120000
+01
+0)
+#1155000
+10
+1(
+03
+0+
+16
+1.
+11
+1)
+#1182000
+17
+1!
+#1185000
+09
+0&
+0#
+#1190000
+01
+0)
+#1215000
+18
+1%
+#1225000
+11
+1)
+#1260000
+01
+0)
+#1295000
+11
+1)
+#1330000
+01
+0)
+#1365000
+00
+0(
+1/
+1'
+06
+0.
+11
+1)
+#1395000
+0$
+#1400000
+01
+0)
+#1435000
+11
+1)
+#1470000
+01
+0)
+#1505000
+11
+1)
+#1540000
+01
+0)
+#1575000
+10
+1(
+13
+1+
+16
+1.
+11
+1)
+#1605000
+19
+1&
+0"
+#1610000
+01
+0)
+#1635000
+08
+0%
+#1645000
+11
+1)
+#1680000
+01
+0)
+#1715000
+11
+1)
+#1750000
+01
+0)
+#1785000
+11
+1)
