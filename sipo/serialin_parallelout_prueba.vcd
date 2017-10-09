@@ -1,0 +1,150 @@
+$date
+	Mon Oct  9 02:24:33 2017
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module sipo_tb $end
+$var wire 10 ! parallel_out [9:0] $end
+$var reg 1 " clk $end
+$var reg 1 # serial_in $end
+$scope module sipo_instcd $end
+$var wire 1 " clk $end
+$var wire 1 # serial_in $end
+$var reg 10 $ parallel_out [9:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx $
+0#
+0"
+bx !
+$end
+#5
+1#
+#10
+b1xxxxxxxxx !
+b1xxxxxxxxx $
+1"
+#20
+0"
+#25
+0#
+#30
+b1xxxxxxxx !
+b1xxxxxxxx $
+1"
+#35
+1#
+#40
+0"
+#45
+0#
+#50
+b1xxxxxxx !
+b1xxxxxxx $
+1"
+#55
+1#
+#60
+0"
+#70
+b1001xxxxxx !
+b1001xxxxxx $
+1"
+#75
+0#
+#80
+0"
+#85
+1#
+#90
+b11001xxxxx !
+b11001xxxxx $
+1"
+#100
+0"
+#110
+b111001xxxx !
+b111001xxxx $
+1"
+#120
+0"
+#125
+0#
+#130
+b111001xxx !
+b111001xxx $
+1"
+#135
+1#
+#140
+0"
+#150
+b10111001xx !
+b10111001xx $
+1"
+#155
+0#
+#160
+0"
+#165
+1#
+#170
+b110111001x !
+b110111001x $
+1"
+#175
+0#
+#180
+0"
+#185
+1#
+#190
+b1110111001 !
+b1110111001 $
+1"
+#200
+0"
+#205
+0#
+#210
+b111011100 !
+b111011100 $
+1"
+#215
+1#
+#220
+0"
+#230
+b1011101110 !
+b1011101110 $
+1"
+#240
+0"
+#250
+b1101110111 !
+b1101110111 $
+1"
+#255
+0#
+#260
+0"
+#265
+1#
+#270
+b1110111011 !
+b1110111011 $
+1"
+#280
+0"
+#290
+b1111011101 !
+b1111011101 $
+1"
+#295
