@@ -1,5 +1,5 @@
 //Segmento de conversión de entrada en serie a salida en paralelo
-//del bloque de transmición de la parte física de la PCIExpress.
+//del bloque de receptor de la parte física de la PCIExpress.
 
 module sipo (/*reinicio,*/ clk, serial_in, parallel_out);
 
